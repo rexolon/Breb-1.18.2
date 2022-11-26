@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FWF",
+    "FFF"
+  ],
+  "key": {
+    "F": {
+      "item": "rexbread:flour"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "rexbread:dough",
+    "count": 8
+  }
+}
