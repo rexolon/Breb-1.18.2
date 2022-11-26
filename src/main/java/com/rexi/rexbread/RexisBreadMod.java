@@ -21,7 +21,6 @@ import java.util.stream.Collectors;
 @Mod(RexisBreadMod.MOD_ID)
 public class RexisBreadMod {
     public static final String MOD_ID = "rexbread";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public RexisBreadMod() {
