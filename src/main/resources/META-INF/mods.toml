@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="rexbread"
+version="${file.jarVersion}"
+displayName="Rexis Bread Mod"
+logoFile="examplemod.png"
+credits="Made by Rexi"
+authors="Rexi/Rexolon"
+description='''
+Among Us.
+Have Fun with Bread.
+'''
+[[dependencies.rexbread]]
+    modId="forge"
+    mandatory=true #mandatory
+    versionRange="[40,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rexbread]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
